@@ -14,6 +14,9 @@
 		0F9E0038280F726B00EC79C7 /* AverageBackgroundColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E0037280F726B00EC79C7 /* AverageBackgroundColorTests.swift */; };
 		0F9E0042280F726B00EC79C7 /* AverageBackgroundColorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E0041280F726B00EC79C7 /* AverageBackgroundColorUITests.swift */; };
 		0F9E0044280F726B00EC79C7 /* AverageBackgroundColorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E0043280F726B00EC79C7 /* AverageBackgroundColorUITestsLaunchTests.swift */; };
+		0F9E0051280F78BB00EC79C7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E0050280F78BB00EC79C7 /* HomeView.swift */; };
+		0F9E0055280F795900EC79C7 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E0054280F795900EC79C7 /* ColorModel.swift */; };
+		0F9E0057280F7C7C00EC79C7 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9E0056280F7C7C00EC79C7 /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		0F9E003D280F726B00EC79C7 /* AverageBackgroundColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AverageBackgroundColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9E0041280F726B00EC79C7 /* AverageBackgroundColorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageBackgroundColorUITests.swift; sourceTree = "<group>"; };
 		0F9E0043280F726B00EC79C7 /* AverageBackgroundColorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageBackgroundColorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0F9E0050280F78BB00EC79C7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0F9E0054280F795900EC79C7 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		0F9E0056280F7C7C00EC79C7 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		0F9E0025280F726800EC79C7 /* AverageBackgroundColor */ = {
 			isa = PBXGroup;
 			children = (
+				0F9E0053280F793C00EC79C7 /* Model */,
+				0F9E0052280F78CC00EC79C7 /* View */,
 				0F9E0026280F726800EC79C7 /* AverageBackgroundColorApp.swift */,
 				0F9E0028280F726800EC79C7 /* ContentView.swift */,
 				0F9E002A280F726A00EC79C7 /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				0F9E0043280F726B00EC79C7 /* AverageBackgroundColorUITestsLaunchTests.swift */,
 			);
 			path = AverageBackgroundColorUITests;
+			sourceTree = "<group>";
+		};
+		0F9E0052280F78CC00EC79C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F9E0050280F78BB00EC79C7 /* HomeView.swift */,
+				0F9E0056280F7C7C00EC79C7 /* UIImage+Extension.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F9E0053280F793C00EC79C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F9E0054280F795900EC79C7 /* ColorModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9E0051280F78BB00EC79C7 /* HomeView.swift in Sources */,
 				0F9E0029280F726800EC79C7 /* ContentView.swift in Sources */,
+				0F9E0057280F7C7C00EC79C7 /* UIImage+Extension.swift in Sources */,
 				0F9E0027280F726800EC79C7 /* AverageBackgroundColorApp.swift in Sources */,
+				0F9E0055280F795900EC79C7 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
