@@ -1,1 +1,1 @@
-# AverageBackgroundColor
+# Average Background Color
